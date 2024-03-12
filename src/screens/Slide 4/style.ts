@@ -23,14 +23,3 @@ export const stylesz=StyleSheet.create({
     }
     
     )
-export const stylesy=StyleSheet.create({
-    text:{
-        color:'white',
-        fontSize:24,
-        marginRight:200,
-        marginTop:70
-    }
-}
-
-)
-    
