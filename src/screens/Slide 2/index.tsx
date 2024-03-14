@@ -1,10 +1,12 @@
 import { ImageBackground,Text, View } from "react-native";
 import { styleContainer } from "../../styles/globalstyle";
 import { styles, stylesz, stylesy } from "./style"
+import { ButtonSlide } from "../../components/ButtonSlide"
+import { IPagina } from "../../../App";
 import React from "react";
 
 
-export function Slide2(){
+export function Slide2({setPageI}:IPagina){
     const fundo = require('../../assets/fundo.png') 
     return (
       <>
@@ -16,6 +18,11 @@ export function Slide2(){
           <Text style={stylesy.text}>Nome- </Text>
           <Text style={stylesy.text}>Senha- </Text>
           <Text style={stylesy.text}>Já possui conta clique aqui- </Text>
+          <View style={styles.buttonContainer}>
+                    <ButtonSlide onPressI={() => setPageI(1)} />
+                    <ButtonSlide onPressI={() => setPageI(2)} />
+            </View>
+
           </View>
         </ImageBackground>
       </>

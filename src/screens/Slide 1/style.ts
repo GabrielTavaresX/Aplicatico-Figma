@@ -17,9 +17,18 @@ export const stylesz=StyleSheet.create({
         alignItems:'center',
         marginTop: 250,
         
+
     
+    },
+    buttonContainer: {
+        flex: 1,
+        bottom:10,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'flex-end',
+        width:400
+
     }
-    
     }
     
     )

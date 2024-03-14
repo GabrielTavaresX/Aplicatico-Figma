@@ -6,6 +6,16 @@ text:{
     color:'white',
     fontSize:15
 
+},
+
+buttonContainer: {
+    flex: 1,
+    bottom:10,
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'flex-end',
+    width:400
+
 }
 
 }
