@@ -16,6 +16,20 @@ buttonContainer: {
     alignItems: 'flex-end',
     width:400
 
+},
+image:{
+    flexDirection:'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+
+    width:400,
+    height:500,
+    flexWrap: 'wrap',
+
+},
+imagem:{
+    width:150,
+    marginVertical:7
 }
 
 }

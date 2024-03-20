@@ -4,7 +4,7 @@ import { colors } from "../../styles/globalstyle"
 export const styles=StyleSheet.create({
 text:{
     color:'white',
-    fontSize:15
+    fontSize:34
 
 }
 
@@ -28,7 +28,15 @@ export const stylesz=StyleSheet.create({
         alignItems: 'flex-end',
         width:400
 
-    }
+    },
+    box:{
+        padding: 25,
+        borderColor: colors.black,
+        borderRadius: 8,
+        borderWidth: 3,
+        width:400,
+        margin: 5,
+      }
     }
     
     )
